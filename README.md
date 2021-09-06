@@ -1,5 +1,8 @@
 # RNA-seq Data Analysis
 
+## Before alignment
+Untar raw data in individual folders, concatenate if the samples are run in two lanes, then count number of lines in 5' and 3' direction. [cat_files.r](https://github.com/cenk-celik/complete-rna-seq/blob/main/cat_files.r)
+
 ## Alignment
 Using _Rsubread_ package, this piece of code will help analyse from constructing reference genome to annotation and from alignment to .BAM files. Finally, resulting .BAM files can be used to build _featureCounts_ and combined in a matrix. [alignment.r](https://github.com/cenk-celik/complete-rna-seq/blob/main/alignment.r)
 
