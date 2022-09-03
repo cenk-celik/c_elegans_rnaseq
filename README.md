@@ -15,8 +15,5 @@ Results from _DESeq2_ analysis can be constructed into a new matrix with the mos
 ## Gene Ontology terms
 Again, using the same results, a gene list can be used to find out "Gene Ontology" terms to visualise enriched pathways. [GO_terms.r](https://github.com/cenk-celik/complete-rna-seq/blob/main/GO_terms.r)
 
-## MeSH terms
-Similar to GO terms, MeSH terms are another way to visualise enriched pathways. [MeSH_terms.r](https://github.com/cenk-celik/complete-rna-seq/blob/main/MeSH_terms.r)
-
 ## Violin Superplots
 Finally, to display genes associated with certain metabolic pathways, violin superplots can be useful. [violin_superplots.r](https://github.com/cenk-celik/complete-rna-seq/blob/main/violin_superplots.r)
